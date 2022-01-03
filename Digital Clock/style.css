@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(52, 87, 82), rgb(88, 78, 224));
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.digiClock{
+    font-size: 6em;
+    color: lavender;
+    font-weight: bold;
+}
